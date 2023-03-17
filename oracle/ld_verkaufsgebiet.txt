@@ -1,0 +1,8 @@
+options (skip=1)
+load data
+infile 'd_verkaufsgebiet.csv'
+truncate
+into table verkaufsgebiet
+fields terminated by ','
+trailing nullcols
+(vgid,obergebiet,bez,ebene)

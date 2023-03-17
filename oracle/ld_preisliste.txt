@@ -1,0 +1,8 @@
+options (skip=1)
+load data
+infile 'd_preisliste.csv'
+truncate
+into table preisliste
+fields terminated by ','
+trailing nullcols
+(plid,datum_von date "YYYYMMDD",datum_bis date "YYYYMMDD")

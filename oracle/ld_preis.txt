@@ -1,0 +1,8 @@
+options (skip=1)
+load data
+infile 'd_preis.csv'
+truncate
+into table preis
+fields terminated by ','
+trailing nullcols
+(plid,pid,betrag "TO_NUMBER(:betrag, '9999999D99', 'NLS_NUMERIC_CHARACTERS = ''. ''')")

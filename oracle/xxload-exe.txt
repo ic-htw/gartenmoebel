@@ -1,0 +1,10 @@
+./xxload hen1rik2 ld_verkaufsgebiet.txt
+./xxload hen1rik2 ld_preisliste.txt
+./xxload hen1rik2 ld_kategorie.txt
+./xxload hen1rik2 ld_kunde.txt
+./xxload hen1rik2 ld_bestellung.txt
+./xxload hen1rik2 ld_versand.txt
+./xxload hen1rik2 ld_produkt.txt
+./xxload hen1rik2 ld_bestellposition.txt
+./xxload hen1rik2 ld_preis.txt
+./xxload hen1rik2 ld_produktkategorie.txt

@@ -1,0 +1,3 @@
+#!/bin/bash
+#echo userid=ugm/$1 control=$2
+sqlldr userid=ugm/$1 control=$2

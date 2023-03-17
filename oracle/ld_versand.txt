@@ -1,0 +1,8 @@
+options (skip=1)
+load data
+infile 'd_versand.csv'
+truncate
+into table versand
+fields terminated by ','
+trailing nullcols
+(vid,versanddatum date "YYYYMMDD",lieferdatum date "YYYYMMDD")

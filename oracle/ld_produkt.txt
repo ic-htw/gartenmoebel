@@ -1,0 +1,8 @@
+options (skip=1)
+load data
+infile 'd_produkt.csv'
+truncate
+into table produkt
+fields terminated by ','
+trailing nullcols
+(pid,bez,laenge,breite)

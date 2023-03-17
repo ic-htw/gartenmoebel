@@ -1,0 +1,8 @@
+options (skip=1)
+load data
+infile 'd_bestellung.csv'
+truncate
+into table bestellung
+fields terminated by ','
+trailing nullcols
+(bid,kid,bestelldatum date "YYYYMMDD",gesamtpreis "TO_NUMBER(:gesamtpreis, '9999999D99', 'NLS_NUMERIC_CHARACTERS = ''. ''')")

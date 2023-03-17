@@ -1,0 +1,8 @@
+options (skip=1)
+load data
+infile 'd_kategorie.csv'
+truncate
+into table kategorie
+fields terminated by ','
+trailing nullcols
+(kid,oberkategorie,bez,ebene)

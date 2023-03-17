@@ -1,0 +1,8 @@
+options (skip=1)
+load data
+infile 'd_bestellposition.csv'
+truncate
+into table bestellposition
+fields terminated by ','
+trailing nullcols
+(bid,pid,vid,menge,einzelpreis "TO_NUMBER(:einzelpreis, '9999999D99', 'NLS_NUMERIC_CHARACTERS = ''. ''')")

@@ -1,0 +1,8 @@
+options (skip=1)
+load data
+infile 'd_produktkategorie.csv'
+truncate
+into table produktkategorie
+fields terminated by ','
+trailing nullcols
+(pid,kid,hk)

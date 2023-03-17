@@ -1,0 +1,8 @@
+options (skip=1)
+load data
+infile 'd_kunde.csv'
+truncate
+into table kunde
+fields terminated by ','
+trailing nullcols
+(kid,vgid,name,titel)
